@@ -16,10 +16,8 @@ public:
     }
 };
 
-// Declare the print object as extern
 extern PrintStream print;
 
-// Define the drop manipulator
 inline std::ostream& drop(std::ostream& os) {
     return os << std::endl;
 }
